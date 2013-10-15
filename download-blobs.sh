@@ -34,9 +34,13 @@ install_blobs() {
     done
 }
 
-MAGURO_BLOBS="broadcom-maguro-imm76d-4ee51a8d.tgz
-              imgtec-maguro-imm76d-0f59ea74.tgz
-              samsung-maguro-imm76d-d16591cf.tgz"
+MAGURO_BLOBS="broadcom-maguro-jwr66y-5fa7715b.tgz
+              imgtec-maguro-jwr66y-b0a4a1ef.tgz
+              invensense-maguro-jwr66y-e0d2e531.tgz
+              nxp-maguro-jwr66y-d8ac2804.tgz
+              samsung-maguro-jwr66y-fb8f93b6.tgz"
+# widevine-maguro-jwr66y-c49927ce.tgz
+# widevine is DRM. we shouldnt include it unless it ABSOLUTELY is needed.
 
 CSUM_LIST="$PWD/blob-shasums"
 
